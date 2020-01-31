@@ -22,6 +22,11 @@ npm start
 # in a new tab
 cd src/server
 python3 server.py # requires Python 3.7. TODO: This is probably missing some dependencies right now.
+cd ../..
+
+# kill npm start then do this
+npm run build
+node src/Main.bs.js
 ```
 
 # Build
