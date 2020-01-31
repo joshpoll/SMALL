@@ -9,6 +9,21 @@ machine.
 the entire state of **SMALL**'s abstract machine as well as information about how data flows from
 one step to the next.
 
+# Initialize and Run (TODO: improve)
+```sh
+git clone --recurse-submodules git@github.com:joshpoll/theia.git
+cd src/server/hamlet
+make # using your favorite SML implementation. We recommend Poly/ML: https://www.polyml.org/index.html
+cd -
+npm install
+npm run server
+# in a new tab
+npm start
+# in a new tab
+cd src/server
+python3 server.py # requires Python 3.7. TODO: This is probably missing some dependencies right now.
+```
+
 # Build
 ```
 npm run build
