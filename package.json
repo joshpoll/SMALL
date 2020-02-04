@@ -1,6 +1,10 @@
 {
   "name": "small",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshpoll/SMALL.git"
+  },
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
