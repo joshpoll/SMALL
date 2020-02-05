@@ -1,5 +1,3 @@
-module Fetch = Bs_node_fetch;
-
 type test = {
   name: string,
   example: SML.focus,
