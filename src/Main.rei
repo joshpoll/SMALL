@@ -3,4 +3,4 @@ type program = {
   text: string,
 };
 
-let traceProgram: program => list(Js.Promise.t(SML.configuration));
+let traceProgram: program => Js.Promise.t(list(SML.configuration));
