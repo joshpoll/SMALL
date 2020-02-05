@@ -9,7 +9,7 @@ machine.
 the entire state of **SMALL**'s abstract machine as well as information about how data flows from
 one step to the next.
 
-# Initialize and Run (TODO: improve)
+# Initialize and Run (TODO: improve description and maybe replace python code with reason code)
 ```sh
 git clone --recurse-submodules git@github.com:joshpoll/theia.git
 cd src/server/hamlet
