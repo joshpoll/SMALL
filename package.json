@@ -6,6 +6,7 @@
     "url": "git://github.com/joshpoll/SMALL.git"
   },
   "scripts": {
+    "install": "make -C ./server/hamlet with-poly",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
