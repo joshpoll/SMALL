@@ -34,6 +34,8 @@ let traceProgram = ({name, text}) => {
   );
 };
 
+let resugar = Resugar.resugarConfiguration;
+
 let traces =
   SMLExamples.(
     [|
