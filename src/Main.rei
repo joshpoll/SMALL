@@ -4,3 +4,5 @@ type program = {
 };
 
 let traceProgram: program => Js.Promise.t(list(SML.configuration));
+
+let resugar: SML.configuration => Resugar.configuration;
